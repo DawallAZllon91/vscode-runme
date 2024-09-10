@@ -21,5 +21,11 @@
   },
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "amazonQ.suppressPrompts": {
+    "createCredentialsProfile": true,
+    "codeWhispererNewWelcomeMessage": true,
+    "codeWhispererConnectionExpired": false,
+    "amazonQWelcomePage": false
   }
 }
