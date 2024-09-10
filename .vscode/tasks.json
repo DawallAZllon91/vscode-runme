@@ -15,7 +15,7 @@
         "reveal": "never"
       },
       "group": {
-        "kind": "build",
+        "kind": "build"
       }
     },
     {
@@ -42,6 +42,13 @@
         "$ts-checker-webpack"
       ],
       "group": "build"
+    },
+    {
+      "type": "markdownlint",
+      "problemMatcher": [
+        "$markdownlint"
+      ],
+      "label": "markdownlint: Lint all Markdown files in the workspace with markdownlint"
     }
   ]
 }
